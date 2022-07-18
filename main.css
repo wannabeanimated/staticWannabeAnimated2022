@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.loadingBar {
+    background: #E6CFFF;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 2px;
+    transform: scaleX(0.0);
+    transition: transform 0.5s;
+}
+.loadingText {
+    color: #E6CFFF;
+    position: absolute;
+    top: 55%;
+    font-size: 1.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map*/
